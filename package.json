@@ -1,6 +1,15 @@
 {
-	"dependencies": {
-		"django": "^1.0.0",
-		"psycopg2-binary": "^0.0.1"
-	}
+  "name": "ai-tools-blog",
+  "version": "1.0.0",
+  "description": "A blog dedicated to AI tools and technologies",
+  "scripts": {
+    "dev": "python manage.py runserver",
+    "build": "python manage.py collectstatic --noinput",
+    "start": "python manage.py runserver",
+    "migrate": "python manage.py migrate"
+  },
+  "dependencies": {
+    "django": "^4.2.0",
+    "psycopg2-binary": "^2.9.5"
+  }
 }
