@@ -1,0 +1,6 @@
+{
+	"dependencies": {
+		"django": "^1.0.0",
+		"psycopg2-binary": "^0.0.1"
+	}
+}

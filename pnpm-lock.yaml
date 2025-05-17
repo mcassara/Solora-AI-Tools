@@ -1,0 +1,24 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  django:
+    specifier: ^1.0.0
+    version: 1.0.0
+  psycopg2-binary:
+    specifier: ^0.0.1
+    version: 0.0.1
+
+packages:
+
+  /django@1.0.0:
+    resolution: {integrity: sha512-PWiLJnnmf+Mghtm1J/YCZMQLM+N8rrz+bBgchOGM9ldJx9IlXM0D8h4u0vfCM85XafEbWAE8JyFbESykgiBhEw==}
+    deprecated: django is now django-express on request of the Django Software Foundation.
+    dev: false
+
+  /psycopg2-binary@0.0.1:
+    resolution: {integrity: sha512-KBMkbVNy9TmSX3TZ5B8stHAuvbCJ855b7KIHV6gDDGsfk4UhsXJvbUyvCO8Q8Zh660QT2yVnd3l3tXOdDVFCrQ==}
+    dev: false

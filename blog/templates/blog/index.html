@@ -1,0 +1,5 @@
+{% for post in latest_posts %}
+  <h2><a href="{% url 'detail' post.id %}">{{ post.title }}</a></h2>
+  <p>{{ post.pub_date }}</p>
+  <p>{{ post.content }}</p>
+{% endfor %}
